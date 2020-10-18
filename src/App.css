@@ -1,0 +1,53 @@
+.next-steps .fa-link {
+  margin-right: 5px;
+}
+
+/* Fix for use only flexbox in content area */
+.next-steps .row {
+  margin-bottom: 0;
+}
+
+.next-steps .col-md-5 {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+}
+
+.rounded-photo-nav {
+  border-radius: 50% !important;
+}
+.result-block-container .result-block {
+  opacity: 1;
+}
+
+.nav-link {
+  color:blue !important;
+}
+
+  footer {
+    min-height: 20px !important;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(247, 89, 62);
+    bottom: 1px;
+    color: white;
+    position: fixed;
+  }
+
+  .navColor {
+    background: linear-gradient(180deg, #5a53534f, #9e9ea59c) !important;
+  }
+  .cartCount {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  .carto {
+    height: 2rem;
+    width: 3rem;
+    color: gray;
+  }
+  
